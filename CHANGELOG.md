@@ -383,7 +383,7 @@
 
 - dfacb04: Rename buildCall interface for consistency and clarity
 - e2d66ce: Adds Initialize Pool functionality for V3 pools;
-- c071850: Refactor useNativeAssetAsWrappedAmountIn adn toNativeAsset into wethIsEth
+- c071850: Refactor useNativeAssetAsWrappedAmountIn and toNativeAsset into wethIsEth
 - 7bc308a: Move accountAddress from query to buildCall input
 
 ### Patch Changes
