@@ -43,7 +43,7 @@ const ANVIL_PORTS: Record<NetworksWithFork, number> = {
 export const ANVIL_NETWORKS: Record<NetworksWithFork, NetworkSetup> = {
     MAINNET: {
         rpcEnv: 'ETHEREUM_RPC_URL',
-        fallBackRpc: 'https://mainnet.gateway.tenderly.co',
+        fallBackRpc: undefined,
         port: ANVIL_PORTS.MAINNET,
         forkBlockNumber: 21373640n,
     },
